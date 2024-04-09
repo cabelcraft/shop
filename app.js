@@ -29,7 +29,7 @@ let products = [
     {
         id: 2,
         name: 'With Data Wire',
-        image: '2.png',
+        image: '2.PNG',
         price: 19.99,
         currency: "€"
     },
