@@ -20,6 +20,8 @@ submit.addEventListener('submit',(e)=>{
       message =>{
         if(message === "OK"){
             alert("Vielen Dank für die Bestellung!Eine E-mail wurde gesendet an " + email.value +" Überpfrüfen sie auch den Spamordner.")
+
+            window.location.href = 'home.html';
         }
 
 
