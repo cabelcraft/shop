@@ -11,13 +11,11 @@ body{
 }
 
 .banner{
-    position:relative;
-    width: 100%;
-     height: 100vh;       
-    background: url("bg.jpg");
+     display: flex;
+    background: url("bg.jpg") ;
+    justify-content: center;
     
-    background-attachment: fixed ;
-    background-position: 100%;
+
 }
  nav{
     height: 44px;
