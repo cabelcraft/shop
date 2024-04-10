@@ -11,11 +11,16 @@ body{
 }
 
 .banner{
-     display: flex;
-    background: url("bg.jpg") ;
-    justify-content: center;
-    
+  background-image: url("bg-removebg.png");
 
+  
+  min-height: 800px;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
 }
  nav{
     height: 44px;
